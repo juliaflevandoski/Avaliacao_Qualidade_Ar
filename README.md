@@ -4,45 +4,42 @@ Este projeto tem como objetivo aplicar técnicas de mineração de dados em um c
 
 ---
 
-## 📌 Sobre o Dataset
+### 📌 Sobre o Dataset
 
-- **Nome**: AirQualityUCI.csv  
-- **Origem**: UCI Machine Learning Repository  
-  [Link direto](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
-
-Este conjunto de dados contém medições de poluentes atmosféricos coletadas em uma estação de monitoramento na cidade de Milão (Itália), entre março de 2004 e abril de 2005. As medições foram feitas a cada hora e incluem variáveis como CO, NOx, C6H6, temperatura e umidade relativa.
+* **Nome:** `AirQualityUCI.csv`
+* **Origem:** UCI Machine Learning Repository ([Link direto](https://archive.ics.uci.edu/ml/datasets/Air+Quality))
+* **Descrição:** Este conjunto de dados contém medições de poluentes atmosféricos coletadas em uma estação de monitoramento na cidade de Milão (Itália), entre março de 2004 e abril de 2005. As medições foram feitas a cada hora e incluem variáveis como CO, NOx, C6H6, temperatura e umidade relativa.
 
 ---
 
-## 🎯 Objetivo
+### 🎯 Objetivo
 
 Prever a concentração de monóxido de carbono (CO) com base em outras variáveis ambientais, utilizando **regressão linear** como técnica de mineração de dados.
 
 ---
 
-## 🧪 Tecnologias Utilizadas
+### 🧪 Tecnologias Utilizadas
 
-- Python 3.13.5
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- PyCharm (ambiente de desenvolvimento)
+* Python 3.13.5
+* Pandas & NumPy
+* Matplotlib & Seaborn
+* Scikit-learn
+* PyCharm (Ambiente de Desenvolvimento)
 
 ---
 
-## 🧭 Estrutura do Projeto
+### 🧭 Estrutura do Projeto
 
-Avaliacao_Qualidade_Ar
+```
+Avaliacao_Qualidade_Ar/
 ├── data/
-│ └── AirQualityUCI.csv
+│   └── AirQualityUCI.csv
 ├── src/
-│ └── air_quality_analysis.py
+│   └── air_quality_analysis.py
 ├── reports/
-│ └── Julia_Levandoski_T20233.pdf
-├── README.md
-
+│   └── Julia_Levandoski_T20233.pdf
+└── README.md
+```
 
 ---
 
@@ -53,54 +50,60 @@ Avaliacao_Qualidade_Ar
 ```bash
 git clone https://github.com/juliaflevandoski/Avaliacao_Qualidade_Ar
 cd Avaliacao_Qualidade_Ar
+```
 
----
-
-### 2. Crie um Ambiente Virtual (opcional, mas recomendado)
+### 2. Crie um Ambiente Virtual (Opcional, mas recomendado)
 
 ```bash
+# Crie o ambiente
 python -m venv .venv
-source .venv/bin/activate  # Linux/macOS
-.venv\Scripts\activate     # Windows
 
----
+# Ative o ambiente
+# No Linux/macOS:
+source .venv/bin/activate
+# No Windows:
+.venv\Scripts\activate
+```
 
 ### 3. Instale as Dependências
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
-
----
+```
 
 ### 4. Execute o Script
 
 ```bash
 python src/air_quality_analysis.py
+```
 
 ---
 
 ## 📈 Resultados Gerados
 
-- Mapa de Correlação (heatmap)
-- Histogramas das variáveis
-- Boxplot para análise de outliers
-- Gráfico Real vs Previsto
-- Gráfico de Resíduos
-Todos os gráficos estão incluídos no relatório em PDF dentro da pasta reports/.
+A execução do script gera as seguintes visualizações para análise:
+
+* Mapa de Correlação (heatmap)
+* Histogramas das variáveis
+* Boxplot para análise de outliers
+* Gráfico Real vs. Previsto
+* Gráfico de Resíduos
+
+Todos os gráficos e a análise completa estão incluídos no relatório em PDF.
 
 ---
 
-##📝 Relatório
+## 📝 Relatório
 
-O relatório detalhado com análise estatística, descrição dos resultados, gráficos e conclusão está disponível no arquivo:
+O relatório detalhado com a análise estatística, descrição dos resultados, gráficos e conclusão está disponível no arquivo:
 
-```bash
-reports/relatorio_final.pdf
+`reports/Julia_Levandoski_T20233.pdf`
 
 ---
 
-👨‍🏫 Autor
-Nome: Júlia Fernanda Levandoski
-Turma: 2023,
-Disciplina: Tópicos Especiais em Computação I
-Professor: Jackson Felipe Magnabosco
+### 👨‍🏫 Autor
+
+* **Nome:** Júlia Fernanda Levandoski
+* **Turma:** 2023
+* **Disciplina:** Tópicos Especiais em Computação I
+* **Professor:** Jackson Felipe Magnabosco
