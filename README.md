@@ -107,3 +107,26 @@ O relatório detalhado com a análise estatística, descrição dos resultados, 
 * **Turma:** 2023
 * **Disciplina:** Tópicos Especiais em Computação I
 * **Professor:** Jackson Felipe Magnabosco
+
+## 📚 Referências
+
+- UCI Machine Learning Repository – Air Quality Data Set:  
+  https://archive.ics.uci.edu/ml/datasets/Air+Quality
+
+- PEDREGOSA, F. et al. **Scikit-learn: Machine Learning in Python.** Journal of Machine Learning Research, v. 12, p. 2825–2830, 2011.
+
+- WASKOM, M. et al. **Seaborn: Statistical Data Visualization.** Journal of Open Source Software, 2021.  
+  https://doi.org/10.21105/joss.03021
+
+- HUNTER, J. D. **Matplotlib: A 2D Graphics Environment.** Computing in Science & Engineering, 2007.
+
+- MCKINNEY, W. **Data Structures for Statistical Computing in Python.** In: Proceedings of the 9th Python in Science Conference, 2010.
+
+---
+
+## 📥 Licença
+
+Este projeto é acadêmico e foi desenvolvido exclusivamente para fins educacionais.  
+Você pode reutilizar e adaptar este conteúdo.
+
+---
